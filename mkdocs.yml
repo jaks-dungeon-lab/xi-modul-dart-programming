@@ -1,0 +1,87 @@
+site_name: Kelas XI Dart Programming
+theme:
+  name: material
+  font:
+    text: Inter
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Dart Dasar:
+      - Pengenalan: dart_dasar/00_pengenalan.md
+      - Comments: dart_dasar/01_comments.md
+      - Variables: dart_dasar/02_variables.md
+      - Built-in Types: dart_dasar/03_built_in_types.md
+      - Operators: dart_dasar/04_operators.md
+      - Exceptions: dart_dasar/05_exceptions.md
+      - Studi Kasus: dart_dasar/06_studi_kasus_kasir.md
+      - Functions: dart_dasar/07_functions.md
+      - Variable Scope: dart_dasar/08_variable_scope.md
+      - Null Safety: dart_dasar/09_null_safety.md
+      - Rangkuman: dart_dasar/10_rangkuman.md
+      - Quiz: dart_dasar/11_quiz.md
+  - Control Flow:
+      - Pengenalan: control_flow/00_pengenalan.md
+      - Percabangan: control_flow/01_percabangan.md
+      - Perulangan: control_flow/02_perulangan.md
+      - Break & Continue: control_flow/03_break_continue.md
+      - Studi Kasus: control_flow/04_studi_kasus.md
+      - Rangkuman: control_flow/05_rangkuman.md
+      - Quiz: control_flow/06_quiz.md
+  - OOP Dasar:
+      - Pengenalan & 4 Pilar: oop/00_pengenalan.md
+      - Class: oop/01_class.md
+      - Properties & Method: oop/02_properties_method.md
+      - Constructor: oop/03_constructor.md
+      - Cascade Notation: oop/04_cascade_notation.md
+      - Inheritance: oop/05_inheritance.md
+      - Studi Kasus: oop/06_studi_kasus.md
+      - Rangkuman: oop/07_rangkuman.md
+      - Quiz: oop/08_quiz.md
+      - Submission: oop/09_submission.md
+  - Futures:
+      - Pengenalan Futures: futures/00_pengenalan_futures.md
+      - Penjelasan Mendalam: futures/01_penjelasan_mendalam.md
+      - Async & Await: futures/02_async_await.md
+      - Rangkuman: futures/03_rangkuman.md
+      - Quiz: futures/04_quiz.md
+  - OOP Lanjutan:
+      - Abstract Class & Interface: oop_lanjutan/00_abstract_interface.md
+      - Enums: oop_lanjutan/01_enums.md
+      - Mixins: oop_lanjutan/02_mixins.md
+      - Extension Method: oop_lanjutan/03_extension_method.md
+      - Rangkuman: oop_lanjutan/04_rangkuman.md
+  - Materi Opsional:
+      - Functional Programming: materi_opsional/00_pengenalan_fp.md
+      - Anonymous Function: materi_opsional/01_anonymous_function.md
+      - Higher-Order Function: materi_opsional/02_higher_order_function.md
+      - Closures: materi_opsional/03_closures.md
+      - Generics: materi_opsional/04_generics.md
+      - Type Inference: materi_opsional/05_type_inference.md
+      - Effective Dart: materi_opsional/06_effective_dart.md
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+plugins:
+  - search
