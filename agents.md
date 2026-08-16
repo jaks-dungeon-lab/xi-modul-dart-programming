@@ -16,7 +16,7 @@ Gunakan bahasa Indonesia yang jelas, singkat, dan langsung ke inti (ditargetkan 
 - **Wajib Analogi**: Untuk materi yang sulit dipahami, selalu sertakan penjelasan dengan tajuk **Analogi:** yang mengibaratkan konsep *coding* dengan kehidupan sehari-hari. 
 - **Cetak Tebal**: Gunakan *bold* (`**teks**`) pada kata-kata kunci.
 - **Format Bullet Point**: Wajib memberikan jarak satu baris kosong (*enter/newline*) sebelum memulai daftar *bullet list* (`- ` atau `1. `) agar ter-*render* benar di MkDocs.
-- **Standar Kuis**: Pembuatan kuis harus menggunakan HTML *vanilla* (tanpa compiler eksternal) dan wajib mengatur warna UI dengan metode transparan (`rgba()` atau `inherit`) agar secara otomatis beradaptasi dengan *Light/Dark Mode* tema *Material*.
+- **Standar Kuis**: Pembuatan kuis harus menggunakan HTML *vanilla* (tanpa compiler eksternal) dan wajib mengatur warna UI dengan metode transparan (`rgba()` atau `inherit`) agar secara otomatis beradaptasi dengan *Light/Dark Mode* tema *Material*. Format dan sistem logika kuis **wajib** menggunakan sistem pengecekan per-soal (tombol cek di setiap soal) dengan objek `quizData` untuk memberikan balikan (*feedback*) penjelasan spesifik pada setiap opsi jawaban, persis seperti sistem pada materi Dart Dasar.
 
 ## Penamaan File dan Folder
 
