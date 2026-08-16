@@ -1,10 +1,10 @@
-# 📘 Kelas XI - Dart Programming
+# Kelas XI - Dart Programming
 
 [![Dart](https://img.shields.io/badge/Dart-Language-0175C2.svg)](https://dart.dev/)
 
 Repositori ini berisi modul pembelajaran interaktif berbasis web untuk siswa Kelas XI SMK bidang Rekayasa Perangkat Lunak (RPL). *Course* ini dirancang khusus untuk membangun pondasi logika pemrograman menggunakan bahasa **Dart**, sebelum siswa benar-benar terjun ke dalam pengembangan antarmuka aplikasi *mobile* menggunakan *framework* **Flutter**.
 
-## ✨ Fitur Utama Modul
+## Fitur Utama Modul
 
 - **Pendekatan Analogi:** Setiap konsep teknis yang berat (seperti OOP, Asynchronous, dan Memory) selalu dijelaskan menggunakan perumpamaan kehidupan sehari-hari.
 - **Micro-Learning:** Materi dipecah menjadi halaman-halaman yang singkat, padat, dan langsung ke intinya.
@@ -12,7 +12,7 @@ Repositori ini berisi modul pembelajaran interaktif berbasis web untuk siswa Kel
 - **Adaptif Dark Mode:** Menggunakan tema *MkDocs Material* yang indah dengan pergantian mode terang/gelap otomatis.
 - **Tugas Terpandu:** Dilengkapi dengan *Starter Kit* Github untuk menguji kemampuan OOP siswa di akhir bab.
 
-## 🗂️ Struktur Kurikulum
+## Struktur Kurikulum
 
 Materi disusun secara sistematis (*step-by-step*):
 1. **Dart Dasar:** Variabel, Tipe Data, Functions, Null Safety, dll.
@@ -22,7 +22,7 @@ Materi disusun secara sistematis (*step-by-step*):
 5. **OOP Lanjutan:** Abstract Class, Interface, Mixins, Extension Method.
 6. **Materi Opsional:** Functional Programming, Generics.
 
-## 🚀 Cara Menjalankan Secara Lokal (*Local Development*)
+## Cara Menjalankan Secara Lokal (*Local Development*)
 
 Untuk menjalankan *website course* ini di komputermu sendiri:
 

@@ -1,6 +1,6 @@
 # Kelas XI Dart Programming
 
-Selamat datang di materi Pemrograman Mobile. Di kelas ini, kamu akan belajar membuat aplikasi Android dan iOS menggunakan Flutter dan Dart. Kamu tidak hanya membaca teori, tapi akan langsung menulis kode dan membuat aplikasi nyata.
+Selamat datang di modul pembelajaran **Dart Programming** untuk kelas XI. Di kelas ini, kamu akan mempelajari fondasi bahasa pemrograman Dart dari nol, mulai dari logika dasar hingga konsep tingkat lanjut.
 
 ---
 
@@ -8,11 +8,10 @@ Selamat datang di materi Pemrograman Mobile. Di kelas ini, kamu akan belajar mem
 
 Setelah menyelesaikan kelas ini, kamu bisa:
 
-- Menulis program menggunakan bahasa Dart.
-- Menyusun antarmuka aplikasi (UI) dengan Flutter.
-- Mengatur tata letak dan pindah antar halaman (navigasi).
-- Menyimpan dan mengubah data di dalam aplikasi (*State Management*).
-- Menjalankan aplikasi langsung ke HP Android kamu.
+- Memahami dasar penulisan logika dan sintaks dalam bahasa **Dart**.
+- Menerapkan konsep *Object-Oriented Programming* (**OOP**) untuk membuat kode yang rapi.
+- Menganalisis masalah logika dan mengatasi *error* (kesalahan) program.
+- Membangun pondasi yang kuat sebelum masuk ke pengembangan aplikasi *mobile* dengan **Flutter**.
 
 ---
 
@@ -41,6 +40,13 @@ Siapkan perangkat keras dan lunak berikut:
 4. **Cari Materi**: Gunakan kolom pencarian di atas jika kamu lupa cara menulis suatu perintah atau ingin melompat ke topik tertentu.
 
 ---
+
+## Evaluasi Pembelajaran
+
+Untuk mengukur pemahamanmu, kelas ini menggunakan dua metode evaluasi:
+
+- **Kuis**: Terdapat pada akhir setiap bab berupa soal pilihan ganda. Kuis ini bertujuan menguji pemahaman teoritis dari materi yang baru saja dibaca.
+- **Submission**: Tugas akhir berupa proyek mandiri. Kamu akan diminta membuat aplikasi atau memecahkan masalah menggunakan kode Dart, lalu mengumpulkan hasilnya melalui repositori *Github*.
 
 ## Glosarium
 
