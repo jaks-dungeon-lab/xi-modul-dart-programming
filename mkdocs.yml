@@ -53,6 +53,13 @@ nav:
       - Rangkuman: oop/07_rangkuman.md
       - Quiz: oop/08_quiz.md
       - Submission: oop/09_submission.md
+  - Collections:
+      - Pengenalan: collections/00_pengenalan.md
+      - List: collections/01_list.md
+      - Map: collections/02_map.md
+      - Set: collections/03_set.md
+      - Rangkuman: collections/04_rangkuman.md
+      - Quiz: collections/05_quiz.md
   - Futures:
       - Pengenalan Futures: futures/00_pengenalan_futures.md
       - Penjelasan Mendalam: futures/01_penjelasan_mendalam.md
