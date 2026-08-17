@@ -18,7 +18,7 @@ Tidak perlu membuat proyek dari nol (kosong)! Kami sudah menyediakan kerangka ko
 
 Segala detail terkait skenario, kriteria penilaian (*ceklis* kelulusan proyek), dan tingkat tantangan tambahan (*challenge*) telah didokumentasikan dengan lengkap pada repositori tersebut.
 
-**[Buka & Unduh Starter Kit: Turn-Base Game](https://github.com/smk-icb-ct-rpl-lab/xi-sk-oop-turnbase-game)**
+**[Buka & Unduh Starter Kit: Turn-Base Game](https://github.com/jaks-dungeon-lab/xi-sk-oop-turnbase-game)**
 
 > **Penting**: Silakan buka repositori di atas, unduh *project*-nya, lalu baca dengan saksama file `README.md` serta `ceklis_kriteria.md` sebagai kompas penulisan kodemu.
 

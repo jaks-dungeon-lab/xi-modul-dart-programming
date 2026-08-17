@@ -23,7 +23,7 @@ void main() {
 
 ```dart
 void main() {
-  String sekolah = 'SMK ICB';
+  String sekolah = 'SMK KU';
   String pesan = "Selamat pagi teman-teman";
 }
 ```
