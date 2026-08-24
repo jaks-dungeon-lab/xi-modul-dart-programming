@@ -36,7 +36,7 @@ Siapkan perangkat keras dan lunak berikut:
 
 1. **Gunakan Menu Samping**: Pilih materi dari menu di sebelah kiri secara berurutan.
 2. **Mulai dari Dart**: Pelajari bagian **[Dart Dasar](dart_dasar/00_pengenalan.md)** dulu. Ini fondasi sebelum masuk ke Flutter.
-3. **Tulis Kodenya**: Jangan hanya membaca. Ketik ulang kode yang ada, ubah nilainya, dan jalankan. Gunakan [DartPad](https://dartpad.dev) untuk mencoba kode Dart langsung di browser.
+3. **Tulis Kodenya**: Jangan hanya membaca. Ketik ulang kode yang ada, ubah nilainya, dan jalankan. Gunakan [DartPad](https://dartpad.dev) untuk mencoba kode Dart langsung di browser atau menggunakan Visual Studio Code di lokal.
 4. **Cari Materi**: Gunakan kolom pencarian di atas jika kamu lupa cara menulis suatu perintah atau ingin melompat ke topik tertentu.
 
 ---
