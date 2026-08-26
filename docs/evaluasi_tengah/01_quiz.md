@@ -43,12 +43,13 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>5. Apa yang terjadi jika sebuah variabel int? dideklarasikan tapi tidak diisi nilai?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>5. Apa yang terjadi jika sebuah variabel <code>int?</code> dideklarasikan tapi tidak diisi nilai?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q5" value="a"> a) Bernilai 0</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q5" value="b"> b) Bernilai null</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q5" value="c"> c) Terjadi error</label></div>
   <div style="margin-bottom: 15px;"><label style="cursor: pointer;"><input type="radio" name="q5" value="d"> d) Program crash</label></div>
   <button type="button" onclick="cekJawaban('q5')" style="padding: 8px 16px; background-color: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer;">Cek Jawaban</button>
+  <div id="feedback-q5" style="margin-top: 15px;"></div>
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
@@ -62,7 +63,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>7. Apa perbedaan utama dari perulangan `while` dan `do-while`?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>7. Apa perbedaan utama dari perulangan <code>while</code> dan <code>do-while</code>?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q7" value="a"> a) while mengecek kondisi di awal, do-while menjalankan kode minimal satu kali sebelum mengecek kondisi</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q7" value="b"> b) while hanya bisa mengulang angka genap, do-while angka ganjil</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q7" value="c"> c) do-while lebih cepat dijalankan komputer daripada while</label></div>
@@ -72,7 +73,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>8. Apabila kita ingin memeriksa sebuah nilai yang spesifik dari suatu variabel tanpa menggunakan banyak `if-else`, kita dapat menggunakan?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>8. Apabila kita ingin memeriksa sebuah nilai yang spesifik dari suatu variabel tanpa menggunakan banyak <code>if-else</code>, kita dapat menggunakan?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q8" value="a"> a) for loop</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q8" value="b"> b) try-catch</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q8" value="c"> c) switch-case</label></div>
@@ -98,10 +99,11 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q10" value="c"> c) Mobil Toyota Yaris milik Budi</label></div>
   <div style="margin-bottom: 15px;"><label style="cursor: pointer;"><input type="radio" name="q10" value="d"> d) Kapasitas bensin</label></div>
   <button type="button" onclick="cekJawaban('q10')" style="padding: 8px 16px; background-color: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer;">Cek Jawaban</button>
+  <div id="feedback-q10" style="margin-top: 15px;"></div>
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>11. Jika kita ingin menyisipkan sebuah variabel `nama` langsung ke dalam sebuah teks String, cara mana yang paling tepat dan modern di Dart?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>11. Jika kita ingin menyisipkan sebuah variabel <code>nama</code> langsung ke dalam sebuah teks String, cara mana yang paling tepat dan modern di Dart?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q11" value="a"> a) "Halo " + nama</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q11" value="b"> b) "Halo $nama"</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q11" value="c"> c) "Halo ${nama}"</label></div>
@@ -111,7 +113,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>12. Ketika kita menggunakan kata kunci `var` untuk membuat variabel `var umur = 17;`, apa yang sebenarnya dilakukan oleh Dart?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>12. Ketika kita menggunakan kata kunci <code>var</code> untuk membuat variabel <code>var umur = 17;</code>, apa yang sebenarnya dilakukan oleh Dart?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q12" value="a"> a) Variabel tersebut bisa diubah menjadi tipe teks nantinya</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q12" value="b"> b) Dart tidak memberikan tipe data apapun</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q12" value="c"> c) Dart otomatis menetapkan tipe int secara permanen pada variabel tersebut</label></div>
@@ -131,7 +133,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>14. Dalam pembuatan percabangan `if`, kondisi yang ada di dalam tanda kurung `if ( ... )` WAJIB menghasilkan tipe data apa?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>14. Dalam pembuatan percabangan <code>if</code>, kondisi yang ada di dalam tanda kurung <code>if ( ... )</code> WAJIB menghasilkan tipe data apa?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q14" value="a"> a) int</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q14" value="b"> b) bool</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q14" value="c"> c) String</label></div>
@@ -151,7 +153,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>16. Kata kunci `this` di dalam sebuah class (misal: `this.nama = nama;`) berfungsi untuk?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>16. Kata kunci <code>this</code> di dalam sebuah class (misal: <code>this.nama = nama;</code>) berfungsi untuk?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q16" value="a"> a) Memanggil class lain dari luar</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q16" value="b"> b) Menunjuk pada variabel lokal di dalam fungsi saja</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q16" value="c"> c) Menunjuk pada property milik objek itu sendiri agar tidak tertukar dengan parameter</label></div>
@@ -161,7 +163,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>17. Simbol titik ganda `..` (Cascade Notation) di Dart berguna untuk?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>17. Simbol titik ganda <code>..</code> (Cascade Notation) di Dart berguna untuk?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q17" value="a"> a) Menggabungkan dua buah teks panjang</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q17" value="b"> b) Menjalankan beberapa perintah secara beruntun pada objek yang sama</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q17" value="c"> c) Memeriksa apakah suatu objek bernilai null</label></div>
@@ -181,7 +183,7 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>19. Jika kita membuat sebuah fungsi yang bertipe kembalian `void` (contoh: `void cetakHalo()`), ini menandakan bahwa?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>19. Jika kita membuat sebuah fungsi yang bertipe kembalian <code>void</code> (contoh: <code>void cetakHalo()</code>), ini menandakan bahwa?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q19" value="a"> a) Fungsi tersebut tidak membutuhkan parameter sama sekali</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q19" value="b"> b) Fungsi tersebut hanya bisa digunakan sekali</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q19" value="c"> c) Fungsi tersebut mengembalikan nilai berupa teks kosong</label></div>
@@ -191,11 +193,11 @@ Uji pemahamanmu dari materi Dart Dasar, Control Flow, hingga OOP Dasar! Pilih ja
 </div>
 
 <div class="question-block" style="margin-bottom: 25px; padding: 20px; border: 1px solid rgba(128, 128, 128, 0.3); border-radius: 8px;">
-  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>20. Jika kita memiliki objek `mobil` yang *mungkin* bernilai kosong (null), bagaimana cara paling aman memanggil method `nyalakanMesin()` miliknya?</strong></p>
+  <p style="margin-bottom: 15px; font-size: 1.05em;"><strong>20. Jika kita memiliki objek <code>mobil</code> yang <em>mungkin</em> bernilai kosong (null), bagaimana cara paling aman memanggil method <code>nyalakanMesin()</code> miliknya?</strong></p>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q20" value="a"> a) mobil.nyalakanMesin()</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q20" value="b"> b) mobil!.nyalakanMesin()</label></div>
   <div style="margin-bottom: 8px;"><label style="cursor: pointer;"><input type="radio" name="q20" value="c"> c) mobil?.nyalakanMesin()</label></div>
-  <div style="margin-bottom: 15px;"><label style="cursor: pointer;"><input type="radio" name="q20" value="d"> d) mobil->nyalakanMesin()</label></div>
+  <div style="margin-bottom: 15px;"><label style="cursor: pointer;"><input type="radio" name="q20" value="d"> d) mobil-&gt;nyalakanMesin()</label></div>
   <button type="button" onclick="cekJawaban('q20')" style="padding: 8px 16px; background-color: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer;">Cek Jawaban</button>
   <div id="feedback-q20" style="margin-top: 15px;"></div>
 </div>
@@ -259,7 +261,7 @@ const quizData = {
   q7: {
     correct: 'a',
     explanations: {
-      a: '<strong>Tepat sekali!</strong> <strong>while</strong> ibarat penjaga pintu yang langsung menolak masuk jika syarat tak terpenuhi, sedangkan <strong>do-while</strong> membiarkan masuk satu kali sebelum mengecek.',
+      a: '<strong>Tepat sekali!</strong> <code>while</code> ibarat penjaga pintu yang langsung menolak masuk jika syarat tak terpenuhi, sedangkan <code>do-while</code> membiarkan masuk satu kali sebelum mengecek.',
       b: 'Keduanya bisa digunakan untuk angka apapun, tidak terbatas pada genap atau ganjil.',
       c: 'Kecepatan keduanya sama saja, yang membedakan adalah alur logikanya.',
       d: 'Ada perbedaan mendasar di mana kondisi itu diletakkan (di awal atau di akhir).'
@@ -289,6 +291,7 @@ const quizData = {
       a: 'Warna merah adalah contoh dari <strong>Property</strong> (ciri-ciri) dari mobil tersebut.',
       b: 'Berjalan maju adalah contoh dari <strong>Method</strong> (tindakan) yang bisa dilakukan mobil.',
       c: '<strong>Tepat sekali!</strong> Object adalah wujud fisik/nyata yang terbuat dari Class. "Mobil Toyota Yaris milik Budi" adalah wujud nyata dari sebuah konsep "Mobil".',
+      d: 'Kapasitas bensin adalah <strong>Property</strong> dari objek mobil.'
     }
   },
   q11: {
@@ -303,9 +306,9 @@ const quizData = {
   q12: {
     correct: 'c',
     explanations: {
-      a: 'Berbeda dengan PHP atau Javascript lama, di Dart sebuah `var` yang sudah diisi angka tidak bisa tiba-tiba diubah menjadi teks.',
-      b: 'Dart selalu memberikan tipe data secara *under-the-hood* meskipun kita tidak menulisnya.',
-      c: '<strong>Tepat sekali!</strong> Inilah yang disebut Type Inference. Dart pintar menebak bahwa 17 adalah `int`, sehingga variabel `umur` dikunci menjadi tipe `int` selamanya.',
+      a: 'Berbeda dengan PHP atau Javascript lama, di Dart sebuah <code>var</code> yang sudah diisi angka tidak bisa tiba-tiba diubah menjadi teks.',
+      b: 'Dart selalu memberikan tipe data secara <em>under-the-hood</em> meskipun kita tidak menulisnya.',
+      c: '<strong>Tepat sekali!</strong> Inilah yang disebut Type Inference. Dart pintar menebak bahwa 17 adalah <code>int</code>, sehingga variabel <code>umur</code> dikunci menjadi tipe <code>int</code> selamanya.',
       d: 'Tidak ada kaitannya dengan sifat sementara variabel.'
     }
   },
@@ -322,7 +325,7 @@ const quizData = {
     correct: 'b',
     explanations: {
       a: 'If tidak bisa memproses angka secara langsung sebagai kondisi.',
-      b: '<strong>Tepat sekali!</strong> Komputer hanya mau menerima nilai `true` (benar) atau `false` (salah) di dalam kurung if.',
+      b: '<strong>Tepat sekali!</strong> Komputer hanya mau menerima nilai <code>true</code> (benar) atau <code>false</code> (salah) di dalam kurung if.',
       c: 'If tidak bisa memproses teks langsung sebagai kondisi.',
       d: 'If tidak bisa menggunakan angka desimal sebagai kondisi.'
     }
@@ -330,28 +333,28 @@ const quizData = {
   q15: {
     correct: 'c',
     explanations: {
-      a: '`break` akan menghancurkan (menghentikan sepenuhnya) perulangan tersebut selamanya.',
-      b: '`stop` tidak dikenali sebagai sintaks penghentian perulangan di Dart.',
-      c: '<strong>Tepat sekali!</strong> `continue` akan melewati putaran yang sedang berjalan dan langsung melompat memulai putaran selanjutnya.',
-      d: '`skip` bukan kata kunci resmi Dart.'
+      a: '<code>break</code> akan menghancurkan (menghentikan sepenuhnya) perulangan tersebut selamanya.',
+      b: '<code>stop</code> tidak dikenali sebagai sintaks penghentian perulangan di Dart.',
+      c: '<strong>Tepat sekali!</strong> <code>continue</code> akan melewati putaran yang sedang berjalan dan langsung melompat memulai putaran selanjutnya.',
+      d: '<code>skip</code> bukan kata kunci resmi Dart.'
     }
   },
   q16: {
     correct: 'c',
     explanations: {
       a: 'Untuk memanggil class lain, kita cukup menggunakan nama class-nya.',
-      b: ' justru merujuk keluar dari fungsi lokal menuju pada kelas utamanya.',
-      c: '<strong>Tepat sekali!</strong> `this` artinya "milik saya", menunjuk secara spesifik pada atribut asli objek itu, bukan pada parameter (data masukan luar) yang namanya mungkin sama.',
-      d: 'Objek baru dibuat dengan memanggil Constructor menggunakan nama class, bukan dengan `this`.'
+      b: 'Kata kunci <code>this</code> tidak merujuk keluar dari fungsi lokal.',
+      c: '<strong>Tepat sekali!</strong> <code>this</code> artinya "milik saya", menunjuk secara spesifik pada atribut asli objek itu, bukan pada parameter (data masukan luar) yang namanya mungkin sama.',
+      d: 'Objek baru dibuat dengan memanggil Constructor menggunakan nama class, bukan dengan <code>this</code>.'
     }
   },
   q17: {
     correct: 'b',
     explanations: {
       a: 'Menggabungkan teks menggunakan operator + atau string interpolation $',
-      b: '<strong>Tepat sekali!</strong> Cascade Notation (..) sangat praktis untuk mengisi banyak properti objek secara bersamaan tanpa harus menulis ulang nama objeknya berkali-kali.',
-      c: 'Memeriksa null menggunakan operator `?.` atau `??`.',
-      d: 'Pewarisan menggunakan kata kunci `extends`.'
+      b: '<strong>Tepat sekali!</strong> Cascade Notation (<code>..</code>) sangat praktis untuk mengisi banyak properti objek secara bersamaan tanpa harus menulis ulang nama objeknya berkali-kali.',
+      c: 'Memeriksa null menggunakan operator <code>?.</code> atau <code>??</code>.',
+      d: 'Pewarisan menggunakan kata kunci <code>extends</code>.'
     }
   },
   q18: {
@@ -359,7 +362,7 @@ const quizData = {
     explanations: {
       a: 'Overloading (membuat fungsi sama dengan parameter beda) tidak didukung secara native oleh Dart.',
       b: 'Inheritance adalah proses pewarisannya itu sendiri.',
-      c: '<strong>Tepat sekali!</strong> Overriding (`@override`) berarti kita menimpa metode lama dari induk dan menggantinya dengan logika versi si anak sendiri.',
+      c: '<strong>Tepat sekali!</strong> Overriding (<code>@override</code>) berarti kita menimpa metode lama dari induk dan menggantinya dengan logika versi si anak sendiri.',
       d: 'Constructor adalah pembuat objek awal.'
     }
   },
@@ -368,17 +371,17 @@ const quizData = {
     explanations: {
       a: 'Void tidak ada hubungannya dengan parameter. Fungsi void tetap bisa menerima parameter.',
       b: 'Void tidak membatasi berapa kali fungsi dijalankan.',
-      c: 'Jika mengembalikan teks kosong, tipenya harus `String`.',
-      d: '<strong>Tepat sekali!</strong> Kata `void` berarti hampa/kosong. Fungsi ini murni hanya melakukan perintah (action) tanpa melemparkan hasil data (return) kembali.'
+      c: 'Jika mengembalikan teks kosong, tipenya harus <code>String</code>.',
+      d: '<strong>Tepat sekali!</strong> Kata <code>void</code> berarti hampa/kosong. Fungsi ini murni hanya melakukan perintah (action) tanpa melemparkan hasil data (return) kembali.'
     }
   },
   q20: {
     correct: 'c',
     explanations: {
-      a: 'Cara ini akan menyebabkan program error jika `mobil` ternyata benar-benar kosong (null).',
-      b: 'Tanda `!` (Bang Operator) memaksa komputer menganggap `mobil` pasti ada. Jika ternyata null, program akan langsung *crash* mati.',
-      c: '<strong>Tepat sekali!</strong> Tanda `?.` akan mengecek dulu: "jika mobil ada isinya, panggil nyalakanMesin(). Tapi jika kosong, abaikan saja dan jangan jadikan error".',
-      d: 'Tanda `->` tidak digunakan untuk memanggil method di dalam bahasa Dart.'
+      a: 'Cara ini akan menyebabkan program error jika <code>mobil</code> ternyata benar-benar kosong (null).',
+      b: 'Tanda <code>!</code> (Bang Operator) memaksa komputer menganggap <code>mobil</code> pasti ada. Jika ternyata null, program akan langsung <em>crash</em> mati.',
+      c: '<strong>Tepat sekali!</strong> Tanda <code>?.</code> akan mengecek dulu: "jika mobil ada isinya, panggil nyalakanMesin(). Tapi jika kosong, abaikan saja dan jangan jadikan error".',
+      d: 'Tanda <code>-&gt;</code> tidak digunakan untuk memanggil method di dalam bahasa Dart.'
     }
   }
 };
