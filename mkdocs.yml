@@ -53,6 +53,9 @@ nav:
       - Rangkuman: oop/07_rangkuman.md
       - Quiz: oop/08_quiz.md
       - Submission: oop/09_submission.md
+  - Evaluasi Paruh Pertama:
+      - Rangkuman: evaluasi_tengah/00_rangkuman.md
+      - Quiz Evaluasi: evaluasi_tengah/01_quiz.md
   - Collections:
       - Pengenalan: collections/00_pengenalan.md
       - List: collections/01_list.md
